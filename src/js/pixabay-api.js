@@ -7,6 +7,7 @@ export function pictureRequest(key, request) {
     .then(response => {
       if (response.status === 200) {
         loader.classList.add('hiden');
+        return response.json();
       }
       if (!response.ok) {
         throw new Error(response.status);
