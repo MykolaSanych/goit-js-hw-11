@@ -87,8 +87,8 @@ body {
   transform-origin: center center;
 }
 .loader::before {
-  width: 32px;
-  height: 32px;
+  width: 70px;
+  height: 70px;
   border-color: #252121 #583b3b transparent transparent;
   animation: rotation 1.5s linear infinite;
 }
