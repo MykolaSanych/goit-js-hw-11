@@ -1,5 +1,5 @@
-import { pictureRequest } from './js/pixabay-api.js';
-import { render } from './js/render-functions.js';
+import { pictureRequest } from '/js/pixabay-api.js';
+import { render } from '/js/render-functions.js';
 import SimpleLightbox from 'simplelightbox';
 const inputSearch = document.querySelector('.input-search');
 const KEY = '43875376-ffcf8bec5b4985f5e1efc350d';
