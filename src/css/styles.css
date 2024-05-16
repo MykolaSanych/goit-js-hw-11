@@ -6,6 +6,7 @@ body {
 .input {
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 32px;
 }
 .button-search {
   width: 90px;
@@ -25,7 +26,7 @@ body {
   width: 270px;
   height: 35px;
   border-radius: 4px;
-  color: rgb(128, 128, 128);
+  color: rgb(3, 3, 3);
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
@@ -36,7 +37,7 @@ body {
 .list-foto {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 24px;
 }
 .gallery-item > a > img {
   width: 360px;
@@ -48,11 +49,32 @@ body {
   flex-direction: column;
   width: 360px;
   height: 200px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(128, 128, 128);
+  border-left: 1px solid rgb(128, 128, 128);
+  border-right: 1px solid rgb(128, 128, 128);
+  background: rgb(255, 255, 255);
 }
 .gallery-item > div {
   display: flex;
   justify-content: space-around;
   text-align: center;
+}
+.gallery-item > div > p {
+  color: rgb(46, 47, 66);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.003em;
+}
+.gallery-item > div > p > span {
+  color: rgb(46, 47, 66);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.003em;
 }
 .loader {
   margin-right: auto;
