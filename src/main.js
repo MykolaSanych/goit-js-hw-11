@@ -1,5 +1,5 @@
-import { pictureRequest } from '/js/pixabay-api.js';
-import { render } from '/js/render-functions.js';
+import { pictureRequest } from './js/pixabay-api.js';
+import { render } from './js/render-functions.js';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import iziToast from 'izitoast';
