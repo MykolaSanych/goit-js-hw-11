@@ -1,6 +1,5 @@
 export function render(arreyFoto) {
   const listFoto = document.querySelector('.list-foto');
-  listFoto.innerHTML = '<ul class="list-foto">';
 
   const gallery = arreyFoto.reduce((acum, item) => {
     const {
