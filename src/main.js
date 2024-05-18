@@ -14,7 +14,7 @@ document.querySelector('.input').addEventListener('submit', submitInput);
 function submitInput(event) {
   event.preventDefault();
   const listFoto = document.querySelector('.list-foto');
-  listFoto.innerHTML = '<ul class="list-foto">';
+  listFoto.innerHTML = '';
   const queryWord = inputSearch.value.trim();
   if (queryWord.length < 3) {
     return iziToast.error({
